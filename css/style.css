@@ -25,6 +25,7 @@ img {
     max-width: 100%;
 }
 
+
 .small-button-white{
     background-color:white;
     color: black;
@@ -54,6 +55,9 @@ img {
 .small-button-violet {
     background-color: #3161E0;
     color: white;
+    border-radius: 2rem;
+    padding: 3px 6px;
+    text-align: center;
 
 }
 
@@ -294,7 +298,7 @@ ul.nav {
     padding: 20px 0;
 }
 
-.green img {
+.green .item4 {
     height: 70%;
     
 }
@@ -304,14 +308,17 @@ ul.nav {
     
 }
 
+.star{
+    margin: 0 auto;    
+    width: 50%;
+    
+}
+
 .green a {
     margin-top: 30px;
     
 }
 
-span{
-    color: #e21db7;
-}
 
 .flexone {
     display: flex;
@@ -343,45 +350,77 @@ span{
     align-items: center;
     width: 800px;
     height: 255px; /* Affiche nel mio live server comparisse il piu fedele allo screen ho dovuto optare per questo stratagemma. compaiono ora i 2 bordi quasi sovrapposti */
-    border: 2px dashed black; 
+    /* border: 2px dashed black;  */
     
 }
 
 /* PINK BLOCK */
 #pinkblock {
-background-color: salmon;
+    /* border-right: 2px dashed black; */
+/* background-color: salmon; */
     width: calc(800px * 2/5);
     height: 250px;
-    border-right: 2px dashed black;
     
 }
 
 /* AQUAMARINE BLOCKS */
 .aquamarine {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    /* border-right: 2px dashed white;
+    border-top: 2px dashed white;
+    border-bottom: 2px dashed white; */
     width: calc(800px / 5);
     height: 250px;
-    border-right: 2px dashed white;
-    border-top: 2px dashed white;
-    border-bottom: 2px dashed white;
     
 }
 
 /* MAIN FOOTER TOP */
 .footer-top {
+    /* border-bottom: 1px white solid; */
     height: 300px;
-    background-color: rgb(65, 64, 64);
-    border-bottom: 1px white solid;
+    background-color: var(--footer-bg-color);
     padding-top: 10px;
 }
+
+/* .first-child:nth-child(1) {
+    color: #3161E0;
+} */
+
+.footer-top a {
+    
+    color: white;
+}
+
 
 /* MAIN FOOTER BOT */
 .footer-bot {
     height: 70px;
-    background-color: rgb(65, 64, 64);
+    background-color: var(--footer-bg-color);
     border-bottom: 1px white solid
 }
 
+#pinkblock img {
+    width: 10%;
+}
+
+.linguaflex {
+    display: flex;
+    align-items: center;
+}
+.flextopfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.flexlink {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 5px
+    
+}
 
 /* CLASS FLEX BOT FOOTER    */
 .flex-bot-footer{
@@ -394,9 +433,10 @@ background-color: salmon;
  
 /* BACKGROUND BOTTOM FOOTER */
 .back-footer-bottom {
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 800px;
-    height: 40px;
+    height: 60px;
+    border-top: 2px solid var(--secondary-color);
 }
 
 /* FLEX CLASS MAIN BOT FOOTER */
@@ -408,5 +448,5 @@ background-color: salmon;
 
 /* BUTTON */
 button {
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
