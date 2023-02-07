@@ -21,10 +21,14 @@ a {
     --footer-bg-color: #23272A;     
 }
 
+
 img {
     max-width: 100%;
 }
 
+.main-section img {
+    height: 100%;    
+}
 
 .small-button-white{
     background-color:white;
@@ -260,9 +264,6 @@ ul.nav {
 
 }
 
-.main-section img {
-    height: 100%;    
-}
 
 /* BACKGROUND ODD SECTION */
 .main-section {
@@ -382,12 +383,9 @@ ul.nav {
     padding-top: 10px;
 }
 
-/* .first-child:nth-child(1) {
-    color: #3161E0;
-} */
 
-.footer-top a {
-    
+/* RE IMPOST COLOUR WHITE TO LINKS FOOTER */
+.footer-top a {    
     color: white;
 }
 
@@ -407,11 +405,23 @@ ul.nav {
     display: flex;
     align-items: center;
 }
+
+.flex-top-footer:first-child {
+    color: var(--secondary-color);
+}
+
+.icon {
+    color: white; /* è una forzatura in quanto first child non so perche no mi funziona */
+}
+
+.linguaflex span {
+    color: white;/* è una forzatura in quanto first child non so perche no mi funziona */
+}
 .flextopfooter {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 20px;
 }
 
 .flexlink {
