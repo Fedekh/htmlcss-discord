@@ -85,7 +85,7 @@ img {
 
 /* debug and eyes relax */
 body{
-    background-color: rgb(228, 218, 218);
+    /* background-color: rgb(228, 218, 218); */
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: white;
     
@@ -424,11 +424,14 @@ ul.nav {
     gap: 20px;
 }
 
+.footer-top ul{
+    list-style-type: none;
+}
 .flexlink {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
-    gap: 5px
+    gap: 20px;
     
 }
 
@@ -456,7 +459,21 @@ ul.nav {
  
 }
 
-/* BUTTON */
-button {
-    /* border: 1px dashed black; */
+/* FLEX CLASS LIST OF LINKS */
+.flexul {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 8px;
+
+}
+
+
+/* WAVE CLASS IMAGE */
+.wave {
+    margin-bottom: -5px;
+}
+
+.wave2 {
+    transform: rotate(180deg);
 }
