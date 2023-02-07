@@ -47,7 +47,7 @@ img {
     background-color: white;
     color: black;
     border-radius: 2rem;
-    padding: 10px 20px;
+    padding: 10px 20px;    
 
 }
 
@@ -64,6 +64,15 @@ img {
     padding: 10px 20px;
 }
 
+.big-button-violet {
+    text-decoration: none;
+    background-color: #3161E0;
+    color: white;
+    border-radius: 2rem;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+}
 
 
 /* debug and eyes relax */
@@ -251,9 +260,14 @@ ul.nav {
     height: 100%;    
 }
 
- /* COLOUR FOR REVERSE BLOCK */
+/* BACKGROUND ODD SECTION */
+.main-section {
+    background-color: white;
+}
+
+ /* BACKGROUNDCOLOR EVEN SECTION */
 .main-section-reverse {
-    background-color: rgb(177, 171, 171);
+    background-color: var(--light-gray-color);
 }
 
 .main-section-reverse img {
@@ -290,13 +304,24 @@ ul.nav {
     
 }
 
+.green a {
+    margin-top: 30px;
+    
+}
+
 span{
     color: #e21db7;
 }
 
+.flexone {
+    display: flex;
+    flex-direction: column;
+}
+
 /* GREENBLOCK DEBUG */
 .greenblock {
-    background-color: rgb(177, 171, 171);
+    background-color:var(--light-gray-color) ;
+    height: 600px;
     
 }
 
