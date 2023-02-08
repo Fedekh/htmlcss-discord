@@ -394,7 +394,7 @@ ul.nav {
 .footer-bot {
     height: 70px;
     background-color: var(--footer-bg-color);
-    border-bottom: 1px white solid
+    /* border-bottom: 1px white solid */
 }
 
 #pinkblock img {
